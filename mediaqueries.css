@@ -16,6 +16,15 @@
     #hamburger-nav{
         display: flex;
     }
+
+     .menu-links.open {
+        top: 10%;
+        right: 18%;
+        background-color: white;
+        box-shadow: 0 15px 20px 0px #d5d5d5;
+        padding: 15px;
+        z-index: 999;
+    }
     #experience, 
     .experience-details-container{
         margin-top: 2rem;
@@ -43,7 +52,7 @@
     }
 }
 
-@media screen and(max-width:600px) {
+@media screen and (max-width:600px) {
     #contact,
     footer{
         height: 30vh;
